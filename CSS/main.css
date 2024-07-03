@@ -1,0 +1,488 @@
+/* Reset default margin for the body */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo1 {
+    width: 100%;
+    margin-top: 0vw;
+    min-width: 18vw;
+    margin-left: 0vw; 
+}
+.logo2 {
+    float: right;
+    padding-right: 0px;
+    margin-right: 0px;
+    object-fit: cover;
+    width: 77%; 
+}
+.logo3 {
+    float: right;
+    padding-right: 0px;
+    margin-right: 0px;
+    object-fit: cover;
+    width: 90%; 
+}
+.logo4 {
+    float: right;
+    padding-right: 0px;
+    margin-right: 0px;
+    object-fit: cover;
+    width: 100%;
+    min-width: 4.3vw;
+}
+.logo5 {
+    float: left;
+    padding-right: 25vw;
+    margin-right: 0px;
+    object-fit: cover;
+    width: 100%;
+    min-width: 4.3vw;
+}
+
+
+/* Topbar of About + Research + Education + Reosurces + News Buttons */
+.topbar {
+    background-color: rgb(39, 151, 185);
+    color: #fff;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+    margin-top: 5px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.topbar img {
+    max-width: 100px; /* Adjust the max-width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.topbar p {
+    margin-right: 30px; /* Adjust the margin from the right side for the text */
+}
+
+/* Alignment of About + Research + Education + Resources + News Buttons */
+.center {
+    float: center;
+    margin-top: 14px;
+    margin: auto;
+    padding: 7px;
+    background-color: inline;
+    word-spacing: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    width: 50vw;
+    max-width: 35rem;
+    border-left: 0;
+    padding-left: 0;
+    margin-right: 35vw;
+}
+
+/* Dropdown Button Mechanisms */
+.dropbtn {
+  margin-top: 5px;
+  margin-left: 50px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: black;
+  background: none;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropbtn3 {
+  margin-top: 0px;
+  margin-left: 350px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: black;
+  background: none;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropbtn2 {
+  margin-top: 5px;
+  margin-left: 50px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: pink;
+  background: none;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropbtn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.dropbtn2:hover {
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 150px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: white}
+**//
+
+.MENU {
+    display: inline-block;
+}
+.mobileHide {
+    display:none;
+}
+.barWidth {
+      border-bottom: 3px solid #888;
+}
+
+
+
+
+
+
+
+
+
+
+/* Home */
+.homeDiv {
+    margin-bottom: 10vw;
+}
+.homeImage{
+    width: 80%;
+    object-fit: contain;
+    padding: 2% 10%;
+    justify-content: center;
+    text-align: center;
+}
+.homeText{
+    font-size: 1.3vw;
+    justify-content: center;
+    text-align: center;
+    line-height: 170%;
+} 
+
+
+
+/* About */
+.aboutDiv{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    line-height: 170%;
+    margin-top: 2vw;
+    margin-bottom: 8vw;
+} 
+.aboutHeader {
+    width: 30%;
+    margin-left: 12.5%;
+    margin-top: 2vw;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+/* Exp-AI2ES Teams */
+
+/* 
+    ".aboutHeader" 
+    ".aboutDiv" 
+*/
+
+
+/* Exp-AI2ES Objectives */
+
+.objectivesDiv{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    line-height: 170%;
+    margin-top: 2vw;
+    margin-bottom: 8vw;
+} 
+.objectivesHeader {
+    width: 30%;
+    margin-left: 12.5%;
+    margin-top: 2vw;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+/* 4DVD Weather Products */
+
+.weatherDiv{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    line-height: 170%;
+    margin-top: 2vw;
+    margin-bottom: 8vw;
+} 
+.weatherHeader {
+    width: 30%;
+    margin-left: 12.5%;
+    margin-top: 2vw;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+/* Machine Learning Group */
+
+/* 
+    ".aboutHeader" 
+    ".aboutDiv" 
+*/
+
+
+
+/* Data Visualization Group */
+
+/* 
+    ".aboutHeader" 
+    ".aboutDiv" 
+*/
+
+
+/* Computer Coding Group */
+
+/* 
+    ".aboutHeader" 
+    ".aboutDiv" 
+*/
+
+
+/* AI Education Group */
+
+/* 
+    ".aboutHeader" 
+    ".aboutDiv" 
+*/
+
+
+/* Progressive Education Group */
+
+/* 
+    ".aboutHeader" 
+    ".aboutDiv" 
+*/
+
+.deweyImage {
+    text-align: center;
+    justify-content: center;
+}
+
+.progressiveEducationDiv{
+    font-size:16px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    line-height: 170%;
+    margin-top: 2vw;
+}
+
+
+/* AI Education Group */
+
+/* 
+    ".aboutHeader" 
+    ".aboutDiv" 
+*/
+
+
+
+/* Computer Coding Tutorials */
+
+/* 
+    ".aboutHeader" 
+    ".aboutDiv" 
+*/
+
+
+/* Coding Democracy */
+
+/* 
+    ".aboutHeader" 
+    ".aboutDiv" 
+*/
+
+
+/* Events */
+
+/* 
+    ".aboutHeader" 
+    ".aboutDiv" 
+*/
+
+
+/* Research News */
+
+/* 
+    ".aboutHeader" 
+    ".aboutDiv" 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .center {
+        text-align: left;
+        width: 10vw;
+        margin-left: 0px;
+    }
+    .dropbtn {
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .center {
+        display:none;
+    }
+    .logo1{
+        display:none;
+    }
+    .logo2{
+        display:none;
+    }
+    .logo3{
+        display:none;
+    }
+    .logo4{
+        display:none;
+    }
+    .mobileHide {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+/* HAMBURGER SIGN */
+        .hamburgerIcon {
+        padding-left: 300px;
+        display: inline;
+        margin-right: 0px;
+        background-color: white; 
+        font-size: 12px;
+        cursor: pointer;
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 6px;
+        margin-left: 0px;
+        border: 0px;
+        background-color: rgb(39, 151, 185);
+    }
+.dropbtn2 {
+  margin-top: 5px;
+  margin-left: 0px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: pink;
+  background: none;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+  background-color: rgb(39, 151, 185);
+}
+.ham {
+    font-size: 35px;
+    margin: 0px;
+    margin-top: 0vw;
+    padding: 0px;
+    border: 0px;
+    margin-bottom: 0px;
+    color: black;
+    margin-left: 0vw;
+    justify-content: right;
+    background-color: rgb(39, 151, 185);
+}
+.hamMenuText {
+    color: black;
+    font-size: 18px;
+    margin-right: 0.25rem;
+}
+.dropdown-contentB {
+  margin-right: 100px; 
+  font-size: 12px;
+  font-weight: 600;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 145px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-contentB a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-contentB a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-contentB {
+    display: block;
+}
+/* END OF HAMBURGER SIGN */
+
+
+}
+
